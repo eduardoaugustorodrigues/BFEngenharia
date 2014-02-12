@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>Simplific</title>
+	<meta name="description" content="SimpliQ - Flat & Responsive Bootstrap Admin Template.">
+	<meta name="author" content="Łukasz Holeczek">
+	<meta name="keyword" content="SimpliQ, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.min.css" rel="stylesheet">
+	<link href="assets/css/retina.min.css" rel="stylesheet">
+	<!-- end: CSS -->
+	
+
+	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	
+	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<script src="assets/css/ie6-8.css"></script>
+		
+	<![endif]-->
+	
+	<!-- start: Favicon and Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:8888/bootstrap/simpliq2/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="http://localhost:8888/bootstrap/simpliq2/ico/favicon.png">
+	<!-- end: Favicon and Touch Icons -->	
+		
+</head>
+<body>
+			<!-- start: Header -->
+	<header class="navbar">
+		<div class="container">
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".sidebar-nav.nav-collapse">
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			</button>
+			<a id="main-menu-toggle" class="hidden-xs open"><i class="icon-reorder"></i></a>		
+				<a class="navbar-brand col-lg-2 col-sm-1 col-xs-12" href="index.html"><span>Simplific</span></a>
+			<!-- start: Header Menu -->
+			<div class="nav-no-collapse header-nav">
+				<ul class="nav navbar-nav pull-right">
+					<li class="dropdown hidden-xs">
+						<a class="btn dropdown-toggle" data-toggle="dropdown" href="index.html#">
+							<i class="icon-warning-sign"></i>
+						</a>
+						<ul class="dropdown-menu notifications">
+							<li class="dropdown-menu-title">
+								<span> Você tem 3 notificações</span>
+							</li>	
+                        	
+                        	<li class="warning">
+                                <a href="index.html#">
+									<span class="icon red"><i class="halflings-icon download-alt"></i></span>
+									<span class="message">Atualização agendada para </span>
+									<span class="time">6 Dias</span> 
+                                </a>
+                            </li>
+							<li>
+                                <a href="index.html#">
+									<span class="icon green"><i class="icon-comment-alt"></i></span>
+									<span class="message">A obra Liberty foi concluida</span>
+									<span class="time">hoje</span> 
+                                </a>
+                            </li>
+							<li>
+                                <a href="index.html#">
+									<span class="icon red"><i class="icon-user"></i></span>
+									<span class="message">Funcionario José falto</span>
+									<span class="time">ontem</span> 
+                                </a>
+                            </li>
+                            <li class="dropdown-menu-sub-footer">
+                        		<a>Veja Mais</a>
+							</li>	
+						</ul>
+					</li>
+					<!-- start: User Dropdown -->
+					<li class="dropdown">
+						<a class="btn account dropdown-toggle" data-toggle="dropdown" href="index.html#">
+							<div class="avatar"><img src="assets/img/avatar.jpg" alt="Avatar"></div>
+							<div class="user">
+								<span class="hello">Bem Vindo</span>
+								<span class="name">Lucas</span>
+							</div>
+						</a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-menu-title">
+								
+							</li>
+							<li><a href="index.html#"><i class="icon-user"></i> Perfil</a></li>
+							<li><a href="login.html"><i class="icon-off"></i> Sair</a></li>
+						</ul>
+					</li>
+					<!-- end: User Dropdown -->
+				</ul>
+			</div>
+			<!-- end: Header Menu -->
+			
+		</div>	
+	</header>
+	<div class="container">
+		<div class="row">
+				
+			<!-- start: Main Menu -->
+			<div id="sidebar-left" class="col-lg-2 col-sm-1">
+				
+				<input type="text" class="search hidden-sm" placeholder="..." />
+				
+				<div class="nav-collapse sidebar-nav collapse navbar-collapse bs-navbar-collapse">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html"><i class="icon-dashboard"></i><span class="hidden-sm"> Principal</span></a></li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-sm"> Obra</span><span class="label">+</span></a>
+							<ul>
+								<li><a class="submenu" href="cadastroob.html"><i class="icon-hdd"></i><span class="hidden-sm"> Criar Propostas</span> <span class="label">1</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-hdd"></i><span class="hidden-sm"> Propostas Abertas</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-hdd"></i><span class="hidden-sm"> Propostas Negadas</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-hdd"></i><span class="hidden-sm"> Parceria</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-hdd"></i><span class="hidden-sm"> Pesquisa</span></a></li>
+								<!-- Profile Page - Cooming Soone
+								<li><a class="submenu" href="page-profile.html"><i class="icon-male"></i><span class="hidden-sm"> User Profile</span></a></li>
+								-->
+							</ul>	
+						</li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-sm"> Cadastros</span><span class="label">+</span></a>
+							<ul>
+								<li><a class="submenu" href="colaboradores.html"><i class="icon-edit"></i><span class="hidden-sm"> Colaboradores</span> <span class="label">2</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-edit"></i><span class="hidden-sm"> Montar Empreita</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-edit"></i><span class="hidden-sm"> Fornecedores</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-edit"></i><span class="hidden-sm"> Materiais</span></a></li>
+							</ul>
+						</li>
+						<li><a href="funcionarios.html"><i class="icon-folder-close-alt"></i><span class="hidden-sm"> Colaboradores</span> <span class="label">3</span></a></li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-sm"> Pagamentos</span> <span class="label">+</span></a>
+							<ul>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Empreita</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Diarias</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Fixos</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Fechamentos</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Relatorios</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Gera Pacote</span></a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-sm"> Financeiro</span> <span class="label">+</span></a>
+							<ul>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Contas Pagar</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Contas Receber</span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-star"></i><span class="hidden-sm"> Relatorios</span></a></li>
+								<li><a class="submenu" href="notas.html"><i class="icon-star"></i><span class="hidden-sm"> Notas Fiscais</span> <span class="label">4</span></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><i class="icon-lock"></i><span class="hidden-sm"> Login Page</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end: Main Menu -->
+			<!-- start: Content -->
+			<div id="content" class="col-lg-10 col-sm-11">
+			<div id="container" class="row">
+				<div class="col-lg-12">
+					<div class="box">
+						<div class="box-header">
+							<h2><i class="icon-edit"></i>Incluir Obra</h2>
+							<div class="box-icon">
+								<a href="form-elements.html#" class="btn-setting"><i class="icon-wrench"></i></a>
+								<a href="form-elements.html#" class="btn-minimize"><i class="icon-chevron-up"></i></a>
+								<a href="form-elements.html#" class="btn-close"><i class="icon-remove"></i></a>
+							</div>
+						</div>
+						<div class="box-content">
+							<form class="form-horizontal">
+								<fieldset class="col-sm-12">
+								<div class="form-group">
+									<label class="control-label" for="focusedInput">Proprietario da Obra</label>
+									<div class="controls">
+									  <input class="form-control focused" id="focusedInput" type="text">
+									</div>
+								  </div>
+								  <div class="form-group">
+								  <label class="control-label" for="date">Telefone</label>
+								  <div class="controls row">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="icon-phone"></i></span>
+									  <input type="text" id="phone" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. (999) 999-9999</span>
+								  </div>
+								</div>	
+								  <div class="form-group">
+									<label class="control-label" for="focusedInput">Nome da Obra</label>
+									<div class="controls">
+									  <input class="form-control focused" id="focusedInput" type="text">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label class="control-label">Numero da Obra</label>
+									<div class="controls">
+									  <span class="input-xlarge uneditable-input">001</span>
+									</div>
+								  </div>
+								  <div class="form-group">
+								  <label class="control-label" for="date01">Informe a Data de Inicio para obra</label>
+								  <div class="controls row">
+									<div class="input-group date col-sm-4">
+										<span class="input-group-addon"><i class="icon-calendar"></i></span>
+										<input type="text" class="form-control date-picker" id="date01" data-date-format="mm/dd/yyyy"/>
+									</div>	
+								  </div>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date01">Informe a Data de termino para obra</label>
+								  <div class="controls row">
+									<div class="input-group date col-sm-4">
+										<span class="input-group-addon"><i class="icon-calendar"></i></span>
+										<input type="text" class="form-control date-picker" id="date01" data-date-format="mm/dd/yyyy"/>
+									</div>	
+								  </div>
+								</div>
+								
+								  <div class="form-group has-success">
+								  <label class="control-label" for="inputSuccess">Endereço da Obra</label>
+								  <input type="text" class="form-control" id="inputSuccess">
+								</div>
+								<div class="form-group">
+									<label class="control-label" for="appendedPrependedInput">Informe o valor inicial da obra</label>
+									<div class="controls">
+									  <div class="input-prepend input-group">
+										<span class="input-group-addon">$</span>
+										<input id="appendedPrependedInput" class="form-control" size="16" type="text"><span class="input-group-addon">.00</span>
+									  </div>
+									</div>
+								  </div>
+								     <div class="form-group">
+									<label class="control-label" for="selectError">Selecione o Nome do Encaregado</label>
+									<div class="controls">
+									  <select id="selectError" class="form-control" data-rel="chosen">
+										<option>João</option>
+										<option>José</option>
+										<option>Bastião</option>
+									</select>
+									</div>
+								  </div>
+								   <div class="form-group">
+									<label class="control-label" for="focusedInput">Informe o Numero de Funcionarios</label>
+									<div class="controls">
+									  <input class="form-control focused" id="focusedInput" type="text">
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label class="control-label" for="selectError1">Selecione os funcionarios</label>
+									<div class="controls">
+									  <select id="selectError1" class="form-control" multiple data-rel="chosen">
+										<option>Bastião</option>
+										<option selected>Toinho</option>
+										<option>José</option>
+										<option>Jaco</option>
+										<option>Pedro</option>
+									  </select>
+									</div>
+								  </div>
+								  <div class="form-group">
+									<label class="control-label" for="selectError2">Selecionar Empreitera</label>
+									<div class="controls">
+										<select class="form-control" data-placeholder="Your Favorite Football Team" id="selectError2" data-rel="chosen">
+											<option value=""></option>
+											<optgroup label="Grupo1">
+											  <option>Dallas Cowboys</option>
+											  <option>New York Giants</option>
+											  <option>Philadelphia Eagles</option>
+											  <option>Washington Redskins</option>
+											</optgroup>
+											<optgroup label="Grupo2">
+											  <option>Chicago Bears</option>
+											  <option>Detroit Lions</option>
+											  <option>Green Bay Packers</option>
+											  <option>Minnesota Vikings</option>
+											</optgroup>
+											<optgroup label="Grupo3">
+											  <option>Atlanta Falcons</option>
+											  <option>Carolina Panthers</option>
+											  <option>New Orleans Saints</option>
+											  <option>Tampa Bay Buccaneers</option>
+											</optgroup>
+									  </select>
+									</div>
+								  </div>
+								  <div class="form-actions">
+									<button type="submit" class="btn btn-primary">Salvar</button>
+									<button class="btn">Cancel</button>
+								  </div>
+								</fieldset>
+							  </form>
+
+						</div>
+					</div>
+				</div><!--/col-->
+			
+			</div><!--/row-->
+			
+			</div><!--/row-->
+				<footer>
+		<p>
+			<span style="text-align:left;float:left">&copy; 2014 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">Engenharia</a></span>
+			<span class="hidden-phone" style="text-align:right;float:right">Powered by: <a href="http://admintemplates.co" alt="Bootstrap Admin Templates">SimpliQ</a></span>
+		</p>
+
+	</footer>
+	
+
+	
+		<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="assets/js/jquery-2.0.3.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="assets/js/jquery-1.10.2.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+			</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	
+		
+	
+	
+	<!-- page scripts -->
+	<script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="assets/js/jquery.sparkline.min.js"></script>
+	<script src="assets/js/jquery.chosen.min.js"></script>
+	<script src="assets/js/jquery.cleditor.min.js"></script>
+	<script src="assets/js/jquery.autosize.min.js"></script>
+	<script src="assets/js/jquery.placeholder.min.js"></script>
+	<script src="assets/js/jquery.maskedinput.min.js"></script>
+	<script src="assets/js/jquery.inputlimiter.1.3.1.min.js"></script>
+	<script src="assets/js/bootstrap-datepicker.min.js"></script>
+	<script src="assets/js/bootstrap-timepicker.min.js"></script>
+	<script src="assets/js/moment.min.js"></script>
+	<script src="assets/js/daterangepicker.min.js"></script>
+	<script src="assets/js/jquery.hotkeys.min.js"></script>
+	<script src="assets/js/bootstrap-wysiwyg.min.js"></script>
+	<script src="assets/js/bootstrap-colorpicker.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="assets/js/custom.min.js"></script>
+	<script src="assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="assets/js/pages/form-elements.js"></script>
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>
